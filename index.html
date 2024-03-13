@@ -4,19 +4,153 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>replit</title>
+  <title>Burger King Assignment</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Bowlby+One" />
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Andada" />
 </head>
 
+  
 <body>
   
-  <button onclick="getLocation()">Get location</button>
-  <p id="geodemo"></p>
-  <button onclick="clearMessage()">Clear message</button>
+  
+  <!-- This section contains the header of the webpage -->
+  <header style="background-color: rgb(245, 235, 220);">
+      <!-- Link to navigate to the index page -->
+      <a class="headers" href="index.html"><i class="fa-solid fa-bars"></i></a>
+      <!-- Link for ordering -->
+      <a class="headers" href="index.html">Order</a>
+      <!-- Link for viewing offers -->
+      <a class="headers" href="index.html">Offers</a>
+      <!-- Link for accessing the menu -->
+      <a class="headers" href="index.html">Menu</a>
+      <!-- Link for delivery information -->
+      <a class="headers" href="index.html">Delivery</a>
+      <!-- Link for more options -->
+      <a class="headers" href="index.html">More</a>
 
-  <p id="geo2"></p>
+      <!-- Logo of Burger King with a link to the homepage -->
+      <div id="imglogo">
+        <a href="index.html">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Burger_King_2020.svg/550px-Burger_King_2020.svg.png" height="68" width="60">
+        </a>
+      </div>
+
+      <!-- Button for choosing location -->
+      <button class="locationbutton"><i class="fa fa-map-marker-alt" style="padding: 8px;"></i> For item availability <u>Choose your location</u></button>
+
+      <!-- Button for signing up -->
+      <button id="signup">Sign Up</button>
+
+      <!-- Button for viewing the shopping basket -->
+      <button id="basket"><i class="fa-solid fa-basket-shopping" style="padding: 8px;"></i> £0.00</button>
+  </header>
 
 
+
+  
+  
+  <!-- This section contains the navigation bar -->
+<nav style="background-color: rgb(80, 35, 20); top: 120px;">
+    <!-- Logo image with a link -->
+    <img src="https://cdn.sanity.io/images/czqk28jt/prod_bk_gb/0cf1af0a0daab9d078b561f98d55a73aec3bcb61-1250x200.png?w=320&q=40&fit=max&auto=format" height="37" width="240">
+    <!-- Message displayed for users -->
+    <p id="message">Welcome! You can earn points with every purchase and use them to redeem rewards.</p>
+    <!-- Button for more information -->
+    <button id="info" class="infobutton"><i id="i" class="fa-solid fa-info"></i> Learn More</button>
+</nav>
+
+
+
+
+  
+  <article>
+    <!-- Section top left -->
+    <div id="section_top_left">
+      <!-- Image one -->
+      <img id="img_one" class="img1_class">
+      <!-- Writing one -->
+      <div id="writing_one">
+        <!-- Heading three for section top left -->
+        <h3 id="h3_one"></h3>
+        <!-- Paragraph one for section top left -->
+        <p id="p_one"></p>
+      </div>
+    </div>
+    <!-- Section top right -->
+    <div id="section_top_right">
+      <!-- Image two -->
+      <img id="img_two">
+      <!-- Writing two -->
+      <div id="writing_two">
+        <!-- Heading three for section top right -->
+        <h3 id="h3_two"></h3>
+        <!-- Paragraph two for section top right -->
+        <p id="p_two"></p>
+      </div>
+    </div>
+    <!-- Section bottom left -->
+    <div id="section_bottom_left">
+      <!-- Image three -->
+      <img id="img_three">
+      <!-- Writing three -->
+      <div id="writing_three">
+        <!-- Heading three for section bottom left -->
+        <h3 id="h3_three"></h3>
+        <!-- Paragraph three for section bottom left -->
+        <p id="p_three"></p>
+      </div>
+    </div>
+    <!-- Section bottom right -->
+    <div id="section_bottom_right">
+      <!-- Image four -->
+      <img id="img_four">
+      <!-- Writing four -->
+      <div id="writing_four">
+        <!-- Heading three for section bottom right -->
+        <h3 id="h3_four"></h3>
+        <!-- Paragraph four for section bottom right -->
+        <p id="p_four"></p>
+      </div>
+    </div>
+    <!-- Section bottom -->
+    <div id="section_bottom">
+      <!-- Heading three for section bottom -->
+      <h3 id="h3_five"></h3>
+      <!-- Image button one -->
+      <div id="img_button_one"></div>
+      <!-- Image button two -->
+      <div id="img_button_two"></div>
+      <!-- Paragraph five for section bottom -->
+      <p id="p_five"></p>
+    </div>
+    <!-- Image five -->
+    <img id="img_five">
+  </article>
+
+  
+
+
+  
+  <footer id="footer">
+    <!-- Footer division 1 -->
+    <div class="footer-div1">
+      <!-- Heading 2 for footer division 1 -->
+      <h2 id="BK-Ft-Div1-h2"></h2>
+      <!-- Links in footer division 1 -->
+      <a href="index.html" id="BK-Ft-Div1-a"></a>
+      <a href="index.html" id="BK-Ft-Div1-a"></a>
+      <a href="index.html" id="BK-Ft-Div1-a"></a>
+      <a href="index.html" id="BK-Ft-Div1-a"></a>
+      <a href="index.html" id="BK-Ft-Div1-a"></a>
+      <a href="index.html" id="BK-Ft-Div1-a"></a>
+      <a href="index.html" id="BK-Ft-Div1-a"></a>
+    </div>
+    <!-- Footer division 2 -->
+    <div class="footer-div2"></div>
+  </footer>
 
   
   <script src="script.js"></script>
